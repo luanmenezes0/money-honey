@@ -1,0 +1,10 @@
+packages:
+  - 'apps/web'
+  - 'functions'
+  - 'docs'
+  - 'scripts'
+  # exclude files from being included as packages
+  - '!**/test/**'
+  - '!**/tests/**'
+  - '!**/dist/**'
+  - '!**/build/**' 
